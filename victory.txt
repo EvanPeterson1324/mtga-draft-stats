@@ -1,0 +1,666 @@
+[
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73357',
+    packNumber: '1',
+    pickNumber: '1'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 2,
+    selfPack: 1,
+    cardsLeft: '73314,73391,73333,73230,73275,73406,73239,73357,73289,73354,73368,73281,73375'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73375',
+    packNumber: '1',
+    pickNumber: '2'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 3,
+    selfPack: 1,
+    cardsLeft: '73424,73312,73231,73262,73374,73244,73317,73209,73455,73372,73461,73193'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73193',
+    packNumber: '1',
+    pickNumber: '3'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 4,
+    selfPack: 1,
+    cardsLeft: '73374,73389,73317,73395,73231,73314,73388,73417,73218,73331,73189'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73189',
+    packNumber: '1',
+    pickNumber: '4'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 5,
+    selfPack: 1,
+    cardsLeft: '73233,73327,73295,73345,73388,73408,73185,73455,73219,73375'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73375',
+    packNumber: '1',
+    pickNumber: '5'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 6,
+    selfPack: 1,
+    cardsLeft: '73185,73327,73419,73403,73270,73236,73468,73359,73330'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73185',
+    packNumber: '1',
+    pickNumber: '6'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 7,
+    selfPack: 1,
+    cardsLeft: '73191,73296,73256,73213,73415,73417,73333,73434'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73333',
+    packNumber: '1',
+    pickNumber: '7'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 8,
+    selfPack: 1,
+    cardsLeft: '73240,73310,73374,73245,73296,73256,73189'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73189',
+    packNumber: '1',
+    pickNumber: '8'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 9,
+    selfPack: 1,
+    cardsLeft: '73271,73192,73191,73403,73311,73462'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73191',
+    packNumber: '1',
+    pickNumber: '9'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 10,
+    selfPack: 1,
+    cardsLeft: '73391,73275,73239,73289,73354'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73354',
+    packNumber: '1',
+    pickNumber: '10'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 11,
+    selfPack: 1,
+    cardsLeft: '73424,73231,73317,73455'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73231',
+    packNumber: '1',
+    pickNumber: '11'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 12,
+    selfPack: 1,
+    cardsLeft: '73389,73317,73388'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73389',
+    packNumber: '1',
+    pickNumber: '12'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 13,
+    selfPack: 1,
+    cardsLeft: '73295,73455'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73455',
+    packNumber: '1',
+    pickNumber: '13'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 14,
+    selfPack: 1,
+    cardsLeft: '73403'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73403',
+    packNumber: '1',
+    pickNumber: '14'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 1,
+    selfPack: 2,
+    cardsLeft: '73378,73341,73246,73296,73333,73373,73415,73395,73190,73315,73420,73413,73241,73253'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73341',
+    packNumber: '2',
+    pickNumber: '1'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 2,
+    selfPack: 2,
+    cardsLeft: '73221,73240,73282,73327,73219,73367,73374,73389,73354,73197,73210,73217,73311'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73210',
+    packNumber: '2',
+    pickNumber: '2'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 3,
+    selfPack: 2,
+    cardsLeft: '73466,73214,73351,73411,73248,73310,73256,73244,73404,73317,73261,73320'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73214',
+    packNumber: '2',
+    pickNumber: '3'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 4,
+    selfPack: 2,
+    cardsLeft: '73225,73240,73351,73222,73468,73398,73282,73360,73460,73205,73283'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73225',
+    packNumber: '2',
+    pickNumber: '4'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 5,
+    selfPack: 2,
+    cardsLeft: '73301,73455,73378,73289,73233,73383,73237,73419,73241,73204'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73204',
+    packNumber: '2',
+    pickNumber: '5'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 6,
+    selfPack: 2,
+    cardsLeft: '73231,73417,73378,73365,73314,73248,73209,73419,73261'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73231',
+    packNumber: '2',
+    pickNumber: '6'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 7,
+    selfPack: 2,
+    cardsLeft: '73327,73230,73222,73399,73395,73236,73219,73254'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73222',
+    packNumber: '2',
+    pickNumber: '7'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 8,
+    selfPack: 2,
+    cardsLeft: '73354,73295,73374,73192,73201,73365,73399'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73201',
+    packNumber: '2',
+    pickNumber: '8'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 9,
+    selfPack: 2,
+    cardsLeft: '73378,73246,73296,73415,73395,73241'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73378',
+    packNumber: '2',
+    pickNumber: '9'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 10,
+    selfPack: 2,
+    cardsLeft: '73221,73327,73219,73367,73197'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73367',
+    packNumber: '2',
+    pickNumber: '10'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 11,
+    selfPack: 2,
+    cardsLeft: '73310,73256,73317,73320'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73320',
+    packNumber: '2',
+    pickNumber: '11'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 12,
+    selfPack: 2,
+    cardsLeft: '73240,73222,73468'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73222',
+    packNumber: '2',
+    pickNumber: '12'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 13,
+    selfPack: 2,
+    cardsLeft: '73301,73419'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73301',
+    packNumber: '2',
+    pickNumber: '13'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 14,
+    selfPack: 2,
+    cardsLeft: '73378'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73378',
+    packNumber: '2',
+    pickNumber: '14'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 1,
+    selfPack: 3,
+    cardsLeft: '73378,73417,73236,73230,73197,73357,73239,73219,73275,73327,73202,73260,73461,73294'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73202',
+    packNumber: '3',
+    pickNumber: '1'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 2,
+    selfPack: 3,
+    cardsLeft: '73357,73282,73468,73359,73345,73239,73395,73307,73246,73192,73308,73325,73405'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73357',
+    packNumber: '3',
+    pickNumber: '2'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 3,
+    selfPack: 3,
+    cardsLeft: '73277,73333,73415,73423,73389,73190,73330,73252,73398,73336,73279,73413'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73333',
+    packNumber: '3',
+    pickNumber: '3'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 4,
+    selfPack: 3,
+    cardsLeft: '73192,73383,73327,73423,73373,73214,73307,73419,73277,73386,73422'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73214',
+    packNumber: '3',
+    pickNumber: '4'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 5,
+    selfPack: 3,
+    cardsLeft: '73411,73357,73221,73256,73315,73333,73299,73399,73347,73281'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73347',
+    packNumber: '3',
+    pickNumber: '5'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 6,
+    selfPack: 3,
+    cardsLeft: '73327,73301,73398,73262,73256,73310,73336,73270,73365'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73336',
+    packNumber: '3',
+    pickNumber: '6'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 7,
+    selfPack: 3,
+    cardsLeft: '73338,73398,73245,73262,73252,73213,73234,73461'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73213',
+    packNumber: '3',
+    pickNumber: '7'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 8,
+    selfPack: 3,
+    cardsLeft: '73264,73338,73239,73270,73417,73360,73307'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73360',
+    packNumber: '3',
+    pickNumber: '8'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 9,
+    selfPack: 3,
+    cardsLeft: '73378,73197,73239,73219,73275,73461'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73197',
+    packNumber: '3',
+    pickNumber: '9'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 10,
+    selfPack: 3,
+    cardsLeft: '73282,73345,73239,73395,73192'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73345',
+    packNumber: '3',
+    pickNumber: '10'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 11,
+    selfPack: 3,
+    cardsLeft: '73415,73398,73336,73413'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73336',
+    packNumber: '3',
+    pickNumber: '11'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 12,
+    selfPack: 3,
+    cardsLeft: '73383,73423,73419'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73423',
+    packNumber: '3',
+    pickNumber: '12'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 13,
+    selfPack: 3,
+    cardsLeft: '73411,73399'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73411',
+    packNumber: '3',
+    pickNumber: '13'
+  },
+  {
+    type: 0,
+    method: 'Draft.CardsInPack',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    selfPick: 14,
+    selfPack: 3,
+    cardsLeft: '73256'
+  },
+  {
+    type: 1,
+    method: 'Draft.MakeHumanDraftPick',
+    draftId: '7f48f696-205b-4a61-b960-49c34fe6275b',
+    cardId: '73256',
+    packNumber: '3',
+    pickNumber: '14'
+  }
+]
