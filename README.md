@@ -75,4 +75,3 @@ The script currently uses the `examplePlayerLog2.txt` as default for presentatio
     }
 }
 ```
-
