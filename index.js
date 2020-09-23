@@ -49,7 +49,7 @@ const constructDraftInitObj = (data) => {
 
 const extractPlayerDraftPickData = (draftPickData) => {
   try {
-    const [, parsedData] = draftPickData.split(LOG_NOTIFICATION.DRAFT_PICK_WAS_MADE);
+    const [, parsedData] = draftPickData.split(LOG_NOTIFICATIONS.DRAFT_PICK_WAS_MADE);
     const { request } = JSON.parse(parsedData);
     return JSON.parse(request);
   }catch (e) {
@@ -58,7 +58,7 @@ const extractPlayerDraftPickData = (draftPickData) => {
 }
 
 const constructDraftPackUpdateObj = (data) => {
-  const [, cardsInPack] = data.split(LOG_NOTIFICATION.DRAFT_PACK_UPDATE);
+  const [, cardsInPack] = data.split(LOG_NOTIFICATIONS.DRAFT_PACK_UPDATE);
   const parsedData = JSON.parse(cardsInPack);
   return {
     method: METHODS.CARDS_IN_PACK,
@@ -153,9 +153,9 @@ try {
       .reduce(groupByDraftId, {});
 
   console.log(allDraftData);
-
+  // fs.writeFileSync('./exampleTxt/output.json', JSON.stringify(allDraftData))
 } catch(e) {
-    console.error('Error caught in top level', error);
+    console.error('Error caught in top level', e);
 }
 
 
