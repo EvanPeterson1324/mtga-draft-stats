@@ -1,1 +1,0 @@
-[UnityCrossThreadLogger]==> Draft.MakeHumanDraftPick {"id":200,"request":"{\r\n  \"jsonrpc\": \"2.0\",\r\n  \"method\": \"Draft.MakeHumanDraftPick\",\r\n  \"params\": {\r\n    \"draftId\": \"7f48f696-205b-4a61-b960-49c34fe6275b\",\r\n    \"cardId\": \"73185\",\r\n    \"packNumber\": \"1\",\r\n    \"pickNumber\": \"6\"\r\n  },\r\n  \"id\": \"200\"\r\n}"}

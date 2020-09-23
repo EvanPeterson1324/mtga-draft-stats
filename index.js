@@ -1,11 +1,4 @@
-
-// "[UnityCrossThreadLogger]==> Event.ReadyDraft" indicated the draft is ready
-
 const fs = require('fs');
-
-// USE LOG NOTIFICATION INSTEAD
-const DRAFT_NOTIFICATION = "[UnityCrossThreadLogger]Draft.Notify";
-const MAKE_HUMAN_DRAFT_PICK = "[UnityCrossThreadLogger]==> Draft.MakeHumanDraftPick";
 
 const LOG_NOTIFICATIONS = {
   DRAFT_INIT: '[UnityCrossThreadLogger]<== Draft.Notification',
@@ -25,19 +18,16 @@ const getEventType = (eventLog) => {
   const isDraftInitEvent = (eventLog.indexOf(DRAFT_INIT) !== -1) && (eventLog.indexOf('SelfSeat') !== -1);
   const isDraftPackUpdateEvent = (eventLog.indexOf(DRAFT_PACK_UPDATE) !== -1);
   const isDraftPickMadeEvent = (eventLog.indexOf(DRAFT_PICK_WAS_MADE) !== -1);
-  //console.log("isDraftInitEvent", isDraftInitEvent);
-  //console.log("isDraftPackUpdateEvent", isDraftPackUpdateEvent)
-  //console.log("isDraftPickMadeEvent", isDraftPickMadeEvent);
 
   if (isDraftInitEvent) return DRAFT_START;
   if (isDraftPackUpdateEvent) return CARDS_IN_PACK;
   if (isDraftPickMadeEvent) return CARD_SELECTED;
+  
   return null;
 }
 
 const extractDraftInitData = (data) => {
   try {
-      //console.log(data)
     const [, parsedData] = data.split(LOG_NOTIFICATIONS.DRAFT_INIT);
     const { payload } = JSON.parse(parsedData);
     return JSON.parse(payload);
@@ -46,7 +36,6 @@ const extractDraftInitData = (data) => {
   }
 }
 
-// TableInfo.PickInfo.PackCards
 const constructDraftInitObj = (data) => {
   const draftInitData = extractDraftInitData(data);
   return {
@@ -60,8 +49,7 @@ const constructDraftInitObj = (data) => {
 
 const extractPlayerDraftPickData = (draftPickData) => {
   try {
-
-    const [, parsedData] = draftPickData.split(MAKE_HUMAN_DRAFT_PICK);
+    const [, parsedData] = draftPickData.split(LOG_NOTIFICATION.DRAFT_PICK_WAS_MADE);
     const { request } = JSON.parse(parsedData);
     return JSON.parse(request);
   }catch (e) {
@@ -70,7 +58,7 @@ const extractPlayerDraftPickData = (draftPickData) => {
 }
 
 const constructDraftPackUpdateObj = (data) => {
-  const [, cardsInPack] = data.split(DRAFT_NOTIFICATION);
+  const [, cardsInPack] = data.split(LOG_NOTIFICATION.DRAFT_PACK_UPDATE);
   const parsedData = JSON.parse(cardsInPack);
   return {
     method: METHODS.CARDS_IN_PACK,
@@ -114,7 +102,6 @@ const formatDraftLogs = (data) => {
 const condenseDraftData = (acc, draftData) => {
 
   if (draftData.method === METHODS.CARDS_IN_PACK) {
-    //console.log("CARDS IN PACK")
     acc.push({
       draftId: draftData.draftId,
       packNumber: draftData.packNumber,
@@ -124,13 +111,14 @@ const condenseDraftData = (acc, draftData) => {
     });
   }
 
+  const lastElement = acc[acc.length - 1];
   if (
       (draftData.method === METHODS.CARD_SELECTED)
-      && (acc[acc.length - 1].draftId === draftData.draftId)
-      && (acc[acc.length - 1].packNumber === draftData.packNumber)
-      && (acc[acc.length - 1].pickNumber === draftData.pickNumber)
+      && (lastElement.draftId === draftData.draftId)
+      && (lastElement.packNumber === draftData.packNumber)
+      && (lastElement.pickNumber === draftData.pickNumber)
       ) {
-    acc[acc.length - 1].selectedCardId = draftData.selectedCardId;
+    lastElement.selectedCardId = draftData.selectedCardId;
   }
 
   return acc;
@@ -152,7 +140,7 @@ const groupByDraftId = (acc, draftData) => {
 }
 
 try {
-  const data = fs.readFileSync('Player.log');
+  const data = fs.readFileSync('./exampleTxt/examplePlayerLog2.txt');
 
   // split contents by newline
   const allDraftData = data
