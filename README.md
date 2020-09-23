@@ -1,7 +1,7 @@
 # MTGA draft scripts
 
 ## Overview
-Magic the Gathering Arena, MTGA for short, is a digital platform in which the trading card game called "Magic the Gathering" can be played digitally. This project aims to provide an easy way for players of MTGA to track statistics about what is called, "drafting".
+Magic the Gathering Arena, MTGA for short, is a platform in which the trading card game called "Magic the Gathering" can be played digitally. This project aims to provide an easy way for players of MTGA to track statistics about what is called "drafting". Drafting is a way to play Magic that includes building a deck out of packs of cards with a group of players.
 
 MTGA writes to a log file called `PLayer.log` when actions are performed in-game. This log file can be usually be found at the following locations for Mac/Windows:
 - Mac: ???
