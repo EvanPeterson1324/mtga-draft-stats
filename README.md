@@ -45,8 +45,10 @@ The script currently uses the `examplePlayerLog2.txt` as default for presentatio
 ```json
 {
     "aaafd414-40a3-4715-bbf9-7bb7e79929a0": {
-        "set": null,
-        "date": null,
+        "draftType": "PremierDraft",
+        "setName": "ZNR",
+        "setReleaseDate": "20200917",
+        "playerName": "ezmagicNsteeze",
         "draftOrder": [
             {
                 "draftId": "aaafd414-40a3-4715-bbf9-7bb7e79929a0",
