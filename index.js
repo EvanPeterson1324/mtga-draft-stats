@@ -231,19 +231,6 @@ try {
         const [UUID] = Object.keys(draftObj)
         fs.renameSync(rawLogDataPath, `${rawDraftLogDataDir}/done-${fileName}-${UUID}`);
       });
-  
-  // For each newDraftData
-  //   Object.keys(data).forEach((draftUUID) => write to )
-
-  
-  
-  
-  // split contents by newline
-  //
-
-  //
-  
-  //fs.writeFileSync('./draftData/output.json', JSON.stringify(draftData))
 } catch(e) {
     console.error('Error caught in top level', e);
 }
