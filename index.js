@@ -173,7 +173,6 @@ const groupByDraftId = (acc, draftData) => {
 
   if (!acc[draftData.draftId]) {
     acc[draftData.draftId] = {
-        // date: null, // TODO
         ...draftData,
         draftOrder: [],
     }
@@ -184,25 +183,71 @@ const groupByDraftId = (acc, draftData) => {
 
   return acc;
 }
- 
+
+const convertRawLogDataToJson = (data) => {
+  return data
+    .split(/\r?\n/)
+    .filter(getEventType)
+    .map(formatDraftLogs)
+    .filter(Boolean) // Removes holes in the array
+    .reduce(condenseDraftData, [])
+    .reduce(groupByDraftId, {});
+}
+
 try {
-  //const existingDraftData = fs.readFileSync('./draftData.json').toString();
+  const rawDraftLogDataDir = './draftDataRaw'
+  const fileNames = fs.readdirSync(rawDraftLogDataDir);
+
+  if (fileNames.length < 1) {
+    throw new Error('No raw draft data to parse!');
+  }
   
-  const data = fs.readFileSync('./exampleTxt/draftLogsRaw/draft4.txt').toString();
+  const draftDataOutputDir = './draftDataJSON';
 
+  fileNames
+    .filter((fileName) => fileName.indexOf('done' === -1))
+    .map((fileName) => {
+      const rawLogDataPath = `${rawDraftLogDataDir}/${fileName}`;
+      const rawLogData = fs.readFileSync(rawLogDataPath).toString();
+      const draftObj = convertRawLogDataToJson(rawLogData);
+      return {
+        draftObj,
+        fileName,
+        rawLogDataPath,
+      }
+    })
+    .forEach(({ draftObj, fileName, rawLogDataPath }) => {
+        Object.keys(draftObj).forEach((draftUUID) => {
+          if (!draftObj[draftUUID]) {
+            throw new Error(`UUID ${draftUUID} does not exist!`);
+          }
+    
+          const outputPath = `${draftDataOutputDir}/${draftUUID}.json`;
+          if (!fs.existsSync(outputPath)) {
+            fs.writeFileSync(outputPath, JSON.stringify(draftObj[draftUUID]));
+          }
+        });
+        // Rename the raw data txt file so we know we parsed it.
+        const [UUID] = Object.keys(draftObj)
+        fs.renameSync(rawLogDataPath, `${rawDraftLogDataDir}/done-${fileName}-${UUID}`);
+      });
+  
+  // For each newDraftData
+  //   Object.keys(data).forEach((draftUUID) => write to )
+
+  
+  
+  
   // split contents by newline
-  const allDraftData = data
-      .split(/\r?\n/)
-      .filter(getEventType)
-      .map(formatDraftLogs)
-      .filter(Boolean) // Removes holes in the array
-      .reduce(condenseDraftData, [])
-      .reduce(groupByDraftId, {});
+  //
 
-  console.log(allDraftData['30b19ee0-2c35-4fc6-a5eb-6e325df0527a']);
-  //fs.writeFileSync('./exampleTxt/output.json', JSON.stringify(allDraftData))
+  //
+  
+  //fs.writeFileSync('./draftData/output.json', JSON.stringify(draftData))
 } catch(e) {
     console.error('Error caught in top level', e);
 }
+
+
 
 
