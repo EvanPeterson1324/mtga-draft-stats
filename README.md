@@ -48,7 +48,6 @@ The script currently uses a default text file for testing purposes. If you'd lik
     "aaafd414-40a3-4715-bbf9-7bb7e79929a0": {
         "draftId": "520962f7-673d-400b-851c-b9059966f940",
         "draftType": "TradDraft",
-        "setName": "ZNR",
         "setReleaseDate": "20200917",
         "playerName": "ezmagicNsteeze",
         "draftOrder": [
