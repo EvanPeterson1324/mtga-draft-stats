@@ -1,7 +1,10 @@
 {
     "aaafd414-40a3-4715-bbf9-7bb7e79929a0": {
-        "set": null,
-        "date": null,
+        "draftId": "aaafd414-40a3-4715-bbf9-7bb7e79929a0",
+        "draftType": "PremierDraft",
+        "setName": "ZNR",
+        "setReleaseDate": "20200917",
+        "playerName": "ezmagicNsteeze",
         "draftOrder": [
             {
                 "draftId": "aaafd414-40a3-4715-bbf9-7bb7e79929a0",
@@ -653,6 +656,666 @@
                     "73327"
                 ],
                 "selectedCardId": "73327"
+            }
+        ]
+    },
+    "0dd1751b-e14c-4ab2-b192-d59860b05858": {
+        "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+        "draftType": "PremierDraft",
+        "setName": "ZNR",
+        "setReleaseDate": "20200917",
+        "playerName": "ezmagicNsteeze",
+        "draftOrder": [
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 1,
+                "cardsInPack": [
+                    73295,
+                    73246,
+                    73373,
+                    73314,
+                    73391,
+                    73398,
+                    73417,
+                    73213,
+                    73190,
+                    73209,
+                    73331,
+                    73441,
+                    73448,
+                    73435
+                ],
+                "selectedCardId": "73435"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 2,
+                "cardsInPack": [
+                    "73298",
+                    "73468",
+                    "73192",
+                    "73245",
+                    "73292",
+                    "73196",
+                    "73345",
+                    "73315",
+                    "73297",
+                    "73388",
+                    "73202",
+                    "73241",
+                    "73469"
+                ],
+                "selectedCardId": "73298"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 3,
+                "cardsInPack": [
+                    "73288",
+                    "73312",
+                    "73395",
+                    "73264",
+                    "73336",
+                    "73307",
+                    "73466",
+                    "73406",
+                    "73330",
+                    "73185",
+                    "73429",
+                    "73456"
+                ],
+                "selectedCardId": "73330"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 4,
+                "cardsInPack": [
+                    "73225",
+                    "73197",
+                    "73206",
+                    "73423",
+                    "73230",
+                    "73310",
+                    "73275",
+                    "73312",
+                    "73347",
+                    "73410",
+                    "73322"
+                ],
+                "selectedCardId": "73423"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 5,
+                "cardsInPack": [
+                    "73455",
+                    "73411",
+                    "73365",
+                    "73256",
+                    "73190",
+                    "73304",
+                    "73271",
+                    "73333",
+                    "73386",
+                    "73441"
+                ],
+                "selectedCardId": "73386"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 6,
+                "cardsInPack": [
+                    "73297",
+                    "73391",
+                    "73354",
+                    "73288",
+                    "73383",
+                    "73419",
+                    "73272",
+                    "73413",
+                    "73414"
+                ],
+                "selectedCardId": "73297"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 7,
+                "cardsInPack": [
+                    "73409",
+                    "73345",
+                    "73374",
+                    "73338",
+                    "73219",
+                    "73201",
+                    "73245",
+                    "73311"
+                ],
+                "selectedCardId": "73409"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 8,
+                "cardsInPack": [
+                    "73455",
+                    "73419",
+                    "73304",
+                    "73222",
+                    "73192",
+                    "73237",
+                    "73242"
+                ],
+                "selectedCardId": "73419"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 9,
+                "cardsInPack": [
+                    "73295",
+                    "73314",
+                    "73398",
+                    "73190",
+                    "73209",
+                    "73331"
+                ],
+                "selectedCardId": "73331"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 10,
+                "cardsInPack": [
+                    "73468",
+                    "73192",
+                    "73345",
+                    "73315",
+                    "73469"
+                ],
+                "selectedCardId": "73315"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 11,
+                "cardsInPack": [
+                    "73312",
+                    "73307",
+                    "73466",
+                    "73406"
+                ],
+                "selectedCardId": "73406"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 12,
+                "cardsInPack": [
+                    "73197",
+                    "73230",
+                    "73312"
+                ],
+                "selectedCardId": "73312"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 13,
+                "cardsInPack": [
+                    "73365",
+                    "73333"
+                ],
+                "selectedCardId": "73333"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 1,
+                "pickNumber": 14,
+                "cardsInPack": [
+                    "73383"
+                ],
+                "selectedCardId": "73383"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 1,
+                "cardsInPack": [
+                    "73374",
+                    "73408",
+                    "73295",
+                    "73300",
+                    "73419",
+                    "73277",
+                    "73225",
+                    "73247",
+                    "73409",
+                    "73373",
+                    "73370",
+                    "73257",
+                    "73183",
+                    "73212"
+                ],
+                "selectedCardId": "73408"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 2,
+                "cardsInPack": [
+                    "73403",
+                    "73300",
+                    "73222",
+                    "73338",
+                    "73220",
+                    "73424",
+                    "73231",
+                    "73317",
+                    "73239",
+                    "73314",
+                    "73210",
+                    "73356",
+                    "73217"
+                ],
+                "selectedCardId": "73424"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 3,
+                "cardsInPack": [
+                    "73191",
+                    "73343",
+                    "73411",
+                    "73209",
+                    "73398",
+                    "73468",
+                    "73277",
+                    "73239",
+                    "73307",
+                    "73427",
+                    "73306",
+                    "73418"
+                ],
+                "selectedCardId": "73418"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 4,
+                "cardsInPack": [
+                    "73463",
+                    "73209",
+                    "73467",
+                    "73225",
+                    "73219",
+                    "73377",
+                    "73240",
+                    "73222",
+                    "73334",
+                    "73274",
+                    "73281"
+                ],
+                "selectedCardId": "73467"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 5,
+                "cardsInPack": [
+                    "73373",
+                    "73252",
+                    "73196",
+                    "73206",
+                    "73336",
+                    "73310",
+                    "73411",
+                    "73236",
+                    "73368",
+                    "73260"
+                ],
+                "selectedCardId": "73411"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 6,
+                "cardsInPack": [
+                    "73307",
+                    "73201",
+                    "73289",
+                    "73463",
+                    "73377",
+                    "73244",
+                    "73388",
+                    "73227",
+                    "73431"
+                ],
+                "selectedCardId": "73431"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 7,
+                "cardsInPack": [
+                    "73378",
+                    "73392",
+                    "73237",
+                    "73197",
+                    "73409",
+                    "73372",
+                    "73354",
+                    "73449"
+                ],
+                "selectedCardId": "73392"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 8,
+                "cardsInPack": [
+                    "73295",
+                    "73468",
+                    "73455",
+                    "73463",
+                    "73345",
+                    "73279",
+                    "73306"
+                ],
+                "selectedCardId": "73455"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 9,
+                "cardsInPack": [
+                    "73374",
+                    "73419",
+                    "73247",
+                    "73373",
+                    "73370",
+                    "73183"
+                ],
+                "selectedCardId": "73419"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 10,
+                "cardsInPack": [
+                    "73222",
+                    "73338",
+                    "73317",
+                    "73239",
+                    "73210"
+                ],
+                "selectedCardId": "73317"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 11,
+                "cardsInPack": [
+                    "73191",
+                    "73398",
+                    "73239",
+                    "73306"
+                ],
+                "selectedCardId": "73398"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 12,
+                "cardsInPack": [
+                    "73209",
+                    "73377",
+                    "73222"
+                ],
+                "selectedCardId": "73377"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 13,
+                "cardsInPack": [
+                    "73336",
+                    "73368"
+                ],
+                "selectedCardId": "73368"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 2,
+                "pickNumber": 14,
+                "cardsInPack": [
+                    "73463"
+                ],
+                "selectedCardId": "73463"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 1,
+                "cardsInPack": [
+                    "73466",
+                    "73256",
+                    "73206",
+                    "73220",
+                    "73341",
+                    "73244",
+                    "73219",
+                    "73467",
+                    "73399",
+                    "73296",
+                    "73400",
+                    "73414",
+                    "73460",
+                    "73358"
+                ],
+                "selectedCardId": "73399"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 2,
+                "cardsInPack": [
+                    "73240",
+                    "73219",
+                    "73341",
+                    "73289",
+                    "73354",
+                    "73288",
+                    "73214",
+                    "73388",
+                    "73237",
+                    "73286",
+                    "73449",
+                    "73183",
+                    "73437"
+                ],
+                "selectedCardId": "73286"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 3,
+                "cardsInPack": [
+                    "73406",
+                    "73196",
+                    "73289",
+                    "73295",
+                    "73333",
+                    "73354",
+                    "73237",
+                    "73240",
+                    "73345",
+                    "73370",
+                    "73205",
+                    "73447"
+                ],
+                "selectedCardId": "73289"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 4,
+                "cardsInPack": [
+                    "73312",
+                    "73248",
+                    "73351",
+                    "73230",
+                    "73292",
+                    "73404",
+                    "73247",
+                    "73213",
+                    "73383",
+                    "73334",
+                    "73410"
+                ],
+                "selectedCardId": "73404"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 5,
+                "cardsInPack": [
+                    "73330",
+                    "73351",
+                    "73372",
+                    "73417",
+                    "73317",
+                    "73404",
+                    "73231",
+                    "73225",
+                    "73275",
+                    "73342"
+                ],
+                "selectedCardId": "73330"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 6,
+                "cardsInPack": [
+                    "73275",
+                    "73465",
+                    "73455",
+                    "73292",
+                    "73345",
+                    "73417",
+                    "73264",
+                    "73308",
+                    "73461"
+                ],
+                "selectedCardId": "73292"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 7,
+                "cardsInPack": [
+                    "73314",
+                    "73275",
+                    "73338",
+                    "73221",
+                    "73367",
+                    "73399",
+                    "73466",
+                    "73455"
+                ],
+                "selectedCardId": "73399"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 8,
+                "cardsInPack": [
+                    "73300",
+                    "73209",
+                    "73239",
+                    "73467",
+                    "73343",
+                    "73256",
+                    "73297"
+                ],
+                "selectedCardId": "73297"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 9,
+                "cardsInPack": [
+                    "73256",
+                    "73219",
+                    "73467",
+                    "73296",
+                    "73414",
+                    "73460"
+                ],
+                "selectedCardId": "73296"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 10,
+                "cardsInPack": [
+                    "73219",
+                    "73354",
+                    "73388",
+                    "73449",
+                    "73183"
+                ],
+                "selectedCardId": "73388"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 11,
+                "cardsInPack": [
+                    "73333",
+                    "73354",
+                    "73345",
+                    "73447"
+                ],
+                "selectedCardId": "73447"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 12,
+                "cardsInPack": [
+                    "73351",
+                    "73213",
+                    "73334"
+                ],
+                "selectedCardId": "73334"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 13,
+                "cardsInPack": [
+                    "73351",
+                    "73372"
+                ],
+                "selectedCardId": "73372"
+            },
+            {
+                "draftId": "0dd1751b-e14c-4ab2-b192-d59860b05858",
+                "packNumber": 3,
+                "pickNumber": 14,
+                "cardsInPack": [
+                    "73455"
+                ],
+                "selectedCardId": "73455"
             }
         ]
     }

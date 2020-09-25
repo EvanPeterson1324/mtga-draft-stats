@@ -11,19 +11,17 @@ MTGA writes to a log file called `PLayer.log` when actions are performed in-game
 > As of writing, it looks like MTGA removes data from `Player.log` everytime the application is started/closed. This data is written to `Player-prev.log` and `Player.log` gets cleared out. For this reason, I'll need to work out a way to listen for when a new draft occurs and save that information somewhere else.
 
 ## TODOS
-- Parse which card set the draft was and what date the draft took place
 - How to store draft data? (mongo? local?)
-- Make script an executable with log file path as input?
+- Allow script to take file path as input to read a log file
 
 ## Usage
-
 1. Make sure you have `npm` installed.
 2. Clone this repo and `cd` into `mtga-draft-stats`
 3. `npm install`
 4. `node index.js`
 5. Output should be logged to the console
 
-The script currently uses the `examplePlayerLog2.txt` as default for presentation purposes. If you'd like to try this with your own log file, copy the `Player.log` mentioned earlier into this repo and change the following line: 
+The script currently uses a default text file for testing purposes. If you'd like to try this with your own log file, copy the `Player.log` mentioned earlier into `./mtga-draft-scripts/exampleTxt` and change the following line to: 
 
 `const data = fs.readFileSync('./exampleTxt/<YOUR_FILE_NAME>')`
 
@@ -31,22 +29,28 @@ The script currently uses the `examplePlayerLog2.txt` as default for presentatio
 
 ### Top level Object
 - `UUID`: this UUID is a uinuqe identifier for a particular draft.
-- `set`: The name or code of the draft set (TODO)
-- `date`: The date and time in which the draft took place (TODO)
+- `draftType`: Will be one of `"PremierDraft"` (Best of 1) or `"TradDraft"` (Best of 3)
+- `setName:`: The arena code of the draft set
+- `setReleaseDate`: The date the set was released on MTGA in the format `YYYYMMDD`
+- `playerName`: The name of the player who this draft data belongs to
 - `draftOrder`: An array of objects dipicting a "history" of the draft picks
 
-### `draftOrder` Objects
+### Draft Order 
 - `draftId`: A unique identifier for the draft
 - `packNumber`: The current pack the player is looking at
 - `pickNumber`: The current pick the player is on
 - `cardsInPack`: Card ids of the cards that are in the pack in the current state
 - `selectedCard`: The card that was selected out of this pack by the player
 
+**Example**
 ```json
 {
     "aaafd414-40a3-4715-bbf9-7bb7e79929a0": {
-        "set": null,
-        "date": null,
+        "draftId": "520962f7-673d-400b-851c-b9059966f940",
+        "draftType": "TradDraft",
+        "setName": "ZNR",
+        "setReleaseDate": "20200917",
+        "playerName": "ezmagicNsteeze",
         "draftOrder": [
             {
                 "draftId": "aaafd414-40a3-4715-bbf9-7bb7e79929a0",
@@ -69,8 +73,7 @@ The script currently uses the `examplePlayerLog2.txt` as default for presentatio
                     73199
                 ],
                 "selectedCardId": "73199"
-            },
-            // ...
+            }
         ]
     }
 }

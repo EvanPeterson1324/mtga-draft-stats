@@ -95,7 +95,7 @@ const extractPlayerDraftPickData = (draftPickData) => {
     const [, parsedData] = draftPickData.split(LOG_NOTIFICATIONS.DRAFT_PICK_WAS_MADE);
     const { request } = JSON.parse(parsedData);
     return JSON.parse(request);
-  }catch (e) {
+  } catch (e) {
     console.error('Error in extractPlayerDraftPickData', e);
   }
 }
@@ -107,7 +107,7 @@ const constructDraftPickObj = (data) => {
     draftId,
     packNumber: parseInt(packNumber, 10),
     pickNumber: parseInt(pickNumber, 10),
-    selectedCardId: cardId,
+    selectedCardId: parseInt(cardId, 10),
   }
 };
 
@@ -186,10 +186,12 @@ const groupByDraftId = (acc, draftData) => {
 }
  
 try {
-  const data = fs.readFileSync('./exampleTxt/twoDrafts.txt');
+  //const existingDraftData = fs.readFileSync('./draftData.json').toString();
+  
+  const data = fs.readFileSync('./exampleTxt/draftLogsRaw/draft4.txt').toString();
 
   // split contents by newline
-  const allDraftData = data.toString()
+  const allDraftData = data
       .split(/\r?\n/)
       .filter(getEventType)
       .map(formatDraftLogs)
@@ -197,8 +199,8 @@ try {
       .reduce(condenseDraftData, [])
       .reduce(groupByDraftId, {});
 
-  console.log(allDraftData);
-  // fs.writeFileSync('./exampleTxt/output.json', JSON.stringify(allDraftData))
+  console.log(allDraftData['30b19ee0-2c35-4fc6-a5eb-6e325df0527a']);
+  //fs.writeFileSync('./exampleTxt/output.json', JSON.stringify(allDraftData))
 } catch(e) {
     console.error('Error caught in top level', e);
 }
