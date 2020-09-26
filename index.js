@@ -205,7 +205,7 @@ try {
   const draftDataOutputDir = './draftDataJSON';
 
   fileNames
-    .filter((fileName) => fileName.indexOf('done' === -1))
+    .filter((fileName) => fileName.indexOf('done') === -1)
     .map((fileName) => {
       const rawLogDataPath = `${rawDraftLogDataDir}/${fileName}`;
       const rawLogData = fs.readFileSync(rawLogDataPath).toString();
@@ -227,9 +227,11 @@ try {
             fs.writeFileSync(outputPath, JSON.stringify(draftObj[draftUUID]));
           }
         });
+        
         // Rename the raw data txt file so we know we parsed it.
         const [UUID] = Object.keys(draftObj)
-        fs.renameSync(rawLogDataPath, `${rawDraftLogDataDir}/done-${fileName}-${UUID}`);
+        const [fileNameWithoutExtension] = fileName.split('.');
+        fs.renameSync(rawLogDataPath, `${rawDraftLogDataDir}/done-${fileNameWithoutExtension}-${UUID}.txt`);
       });
 } catch(e) {
     console.error('Error caught in top level', e);
