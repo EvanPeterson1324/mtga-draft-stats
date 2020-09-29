@@ -4,6 +4,7 @@
   "description": "scripts for mtga draft tracker",
   "main": "index.js",
   "scripts": {
+    "grabLog": "node ./src/grabLog.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "evan peterson",

@@ -209,9 +209,8 @@ try {
     .map((fileName) => {
       const rawLogDataPath = `${rawDraftLogDataDir}/${fileName}`;
       const rawLogData = fs.readFileSync(rawLogDataPath).toString();
-      const draftObj = convertRawLogDataToJson(rawLogData);
       return {
-        draftObj,
+        draftObj: convertRawLogDataToJson(rawLogData),
         fileName,
         rawLogDataPath,
       }
