@@ -8,5 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "evan peterson",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-tail": "0.0.4"
+  }
 }
